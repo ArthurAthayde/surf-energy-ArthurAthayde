@@ -10,6 +10,15 @@ h4 {
 .home-header {
   padding: 200px 0;
   background-image: url(./../images/bg.jpg);
+  position: relative;
+  height: 1200px;
+}
+
+.imgOnda1{
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100vw;
 }
 
 .home-header-content {
@@ -27,7 +36,10 @@ h4 {
 .home-header .button {
   margin-left: auto;
   margin-right: 80px;
+  position: sticky;
+  top: 200px;
 }
+
 .participants {
   padding: 50px 0;
 }
@@ -37,4 +49,23 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer{
+  position: relative;
+  height: 1500px;
+}
+
+.imgOnda2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 2;
+}
+
+.footer .content-box{
+  position: sticky;
+  bottom: 680px;
+  z-index: 1;
 }
