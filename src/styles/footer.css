@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  height: 1500px;
 }
 
 .footer-content {
@@ -20,4 +22,10 @@
 
 .footer-content p {
   color: var(--color-grey-3);
+}
+
+.footer .content-box{
+  position: sticky;
+  bottom: 10%;
+  z-index: 1;
 }
